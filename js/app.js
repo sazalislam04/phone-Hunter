@@ -90,7 +90,7 @@ const phoneDetails = async (id) => {
 };
 
 const displayPhoneDetails = (phone) => {
-  console.log(phone);
+  // console.log(phone);
   const { brand, image, mainFeatures, name, releaseDate, others } = phone;
   const { chipSet, displaySize, memory, sensors, storage } = mainFeatures;
   const { Bluetooth, GPS, NFC, Radio, USB, WLAN } = others;
